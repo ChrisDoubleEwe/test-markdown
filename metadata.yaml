@@ -1,0 +1,50 @@
+---
+title: Test Guide One
+subtitle: Guide 
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+author: ChrisW
+status: FINAL
+keywords: [PPA]
+bookpartno: 102550
+product: Platform Design
+vrm_version: 0100
+vrmtype: "software altversion"
+vrmrelease: 1.0
+draft_issue: 
+content_type: guide
+audience:
+  - socDesigners
+
+intended_audience: blah
+terminology_review: unknown
+
+# Revision history
+
+releases:
+  - revision: 1.0
+    date: 2021-01-01
+    change_summary: Initial release
+    permissions: nonconfidential
+
+# pandoc-crossref attributes - can be safely ignored if not using pandoc-crossref
+
+linkReferences: true
+figPrefix:
+    - 'Figure'
+    - 'Figures'
+eqnPrefix:
+    - 'Equation'
+    - 'Equations'
+tblPrefix:
+    - 'Table'
+    - 'Tables'
+
+nameInLink: true
+
+# pandoc-citeproc attributes - can be safely ignored if not using pandoc-citeproc
+
+csl: arm_dita_citation_style.csl
+nocite:
+    - '@*'
+link-citations: false
+suppress-bibliography: false
